@@ -1,0 +1,73 @@
+package com.domain;/**
+ * Created with IntelliJ IDEA
+ *
+ * @Author: mocas
+ * @Date: 2020/8/31 21:07
+ * @email: wangyuhang_mocas@163.com
+ */
+
+/**
+ *@program: mybatis01
+ *@description:
+ *@author: mocas_wang
+ *@create: 2020-08-31 21:07
+ */
+public class Customer {
+    private Integer  id;
+    private  String name;
+    private String gender;
+    private String telephone;
+    private String address;
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getGender() {
+        return gender;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
+
+    public String getTelephone() {
+        return telephone;
+    }
+
+    public void setTelephone(String telephone) {
+        this.telephone = telephone;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    @Override
+    public String toString() {
+        return "Customer{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", gender='" + gender + '\'' +
+                ", telephone='" + telephone + '\'' +
+                ", address='" + address + '\'' +
+                '}';
+    }
+}
